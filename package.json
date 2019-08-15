@@ -11,6 +11,14 @@
     "graphql": "^14.4.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
   }
 }
