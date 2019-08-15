@@ -2,7 +2,7 @@
   "name": "graphql-apollo-server",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Glenn Dimaliwat",
+  "author": "Sam Khan",
   "license": "MIT",
   "dependencies": {
     "apollo-server": "^2.8.1",

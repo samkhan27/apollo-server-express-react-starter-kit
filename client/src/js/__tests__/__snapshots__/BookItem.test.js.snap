@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It loads the book item component with title and author 1`] = `
+<div>
+  <p>
+    Game of Thrones
+    : 
+    George RR Martin
+  </p>
+</div>
+`;
