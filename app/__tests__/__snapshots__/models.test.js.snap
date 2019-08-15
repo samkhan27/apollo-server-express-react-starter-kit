@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it returns correct books 1`] = `
+Array [
+  Object {
+    "author": "J.K. Rowling",
+    "title": "Harry Potter and the Chamber of Secrets",
+  },
+  Object {
+    "author": "Michael Crichton",
+    "title": "Jurassic Park",
+  },
+]
+`;
