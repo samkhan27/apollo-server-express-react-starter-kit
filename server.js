@@ -1,6 +1,7 @@
 const express = require('express')
 const { ApolloServer } = require('apollo-server-express');
 const http = require('http');
+const cors = require('cors');
 
 // Import type definitions
 const { typeDefs } = require('./app/graphql/typeDefs')
@@ -14,6 +15,8 @@ const { resolvers } = require('./app/graphql/resolvers')
 const apollo = new ApolloServer({ typeDefs, resolvers })
 
 const app = express()
+// enable cross origins requests in app
+app.use(cors())
 // set up http server with the express app
 const httpServer = http.Server(app);
 // Set the Port
